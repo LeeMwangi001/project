@@ -29,3 +29,22 @@ fetch("https://opentdb.com/api.php?amount=10")
    });  
 
 
+// Function to display a question
+function displayQuestion() {
+    const currentQuestion = questions[currentQuestionIndex];
+    questionContainer.textContent = currentQuestion.question; // Display question text
+ 
+ 
+    optionsContainer.innerHTML = ''; // Clear options container
+    // Iterate through incorrect answers and create buttons for each
+    currentQuestion.incorrect_answers.forEach((option, index) => {
+        const optionButton = document.createElement('button');
+        optionButton.classList.add('option-item');
+        optionButton.textContent = option;
+        optionButton.value = option;
+        optionButton.addEventListener('click', () => handleOptionClick(optionButton.value));
+        optionsContainer.appendChild(optionButton);
+    });
+ 
+ 
+   

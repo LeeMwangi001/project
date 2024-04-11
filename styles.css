@@ -82,6 +82,33 @@ h1 {
     font-size: 20px;
     color: aliceblue;
 }
+#restart-btn{
+    width: 250px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
 
+#restart-btn:hover{
+    background-color: lightgreen;
+    color: white;
+}
 
+#new-quiz-btn{
+    width: 250px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#new-quiz-btn:hover{
+    background-color: rgb(109, 15, 233);
+    color: white;
+}
 

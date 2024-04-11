@@ -91,5 +91,18 @@ function handleOptionClick(selectedOption) {
     restartButton.disabled = false;
    }
    
+   // Add event listener for the restart button to restart the quiz
+   restartButton.addEventListener('click', () => {
+    currentQuestionIndex = 0; // Reset question index
+    score = 0; // Reset score
+    scoreContainer.textContent = 0; // Update score display
+    feedbackContainer.textContent = ""; // Clear feedback
+    displayQuestion(); // Display the first question
+   });
    
+   
+   // Add event listener for the new quiz button to reload the page
+   newQuizButton.addEventListener('click', () => {
+    location.reload(); // Reload the page
+   });
    

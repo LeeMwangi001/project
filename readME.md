@@ -19,12 +19,12 @@ To set up the project locally, follow these steps:
   ```bash
   git clone https://github.com/LeeMwangi001/quiz-app.git
 
-
+```
 2. Navigate to the project directory:
 
   ```bash
    cd quiz-app
-
+```
 
 3. Open the index.html file in your web browser to view the application.
 
@@ -40,3 +40,4 @@ GitHub: [LeeMwangi001]
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+

@@ -28,6 +28,13 @@ To set up the project locally, follow these steps:
 
 3. Open the index.html file in your web browser to view the application.
 
+## Technologies used
+1. HTML
+2. CSS
+3. JavaScript
+4. Git
+
+
 
 ## Live Site
 You can view the live site [here](https://leemwangi001.github.io/project/).

@@ -47,4 +47,12 @@ function displayQuestion() {
     });
  
  
-   
+ // Create button for correct answer
+ const correctOptionButton = document.createElement('button');
+ correctOptionButton.classList.add('option-item');
+ correctOptionButton.textContent = currentQuestion.correct_answer;
+ correctOptionButton.value = currentQuestion.correct_answer;
+ correctOptionButton.addEventListener('click', () => handleOptionClick(correctOptionButton.value));
+ optionsContainer.appendChild(correctOptionButton);
+}
+

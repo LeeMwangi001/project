@@ -71,4 +71,25 @@ function handleOptionClick(selectedOption) {
     }
    
    
+    currentQuestionIndex++; // Move to the next question
+    // If there are more questions, display the next question
+    if (currentQuestionIndex < questions.length) {
+        displayQuestion();
+    } else { // If all questions have been answered
+        feedbackContainer.innerHTML += "<br>Quiz completed!";
+        displayFinalScore();
+    }
+   
+   
+    // Update score display
+    scoreContainer.textContent = score;
+   }
+   
+   
+   // Function to display final score and enable restart button
+   function displayFinalScore() {
+    restartButton.disabled = false;
+   }
+   
+   
    

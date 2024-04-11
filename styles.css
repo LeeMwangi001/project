@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/home.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    @import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
+    font-size: 86px;
+    color: rgb(255, 255, 255);
+    font-family: space;
+}
+
+#question-container {
+    font-size: 30px;
+    margin-bottom:20px;
+    display: inline;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#score-container{
+    margin-bottom: 20px;
+}
+
+#score{
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+
+#score > span{
+    color: aliceblue;
+    margin: 2px;
+}
+
+.option-label {
+    margin-bottom: 10px;
+}
+
+.option-item {
+    width: 500px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 8px;
+    display: flexbox;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.option-item:hover{
+    background-color: rgb(186, 192, 221);
+    color: rgb(1, 21, 46);
+}
+
+#feedback {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#restart-btn{
+    width: 250px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#restart-btn:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+#new-quiz-btn{
+    width: 250px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#new-quiz-btn:hover{
+    background-color: rgb(109, 15, 233);
+    color: white;
+}

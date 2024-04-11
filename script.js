@@ -56,3 +56,19 @@ function displayQuestion() {
  optionsContainer.appendChild(correctOptionButton);
 }
 
+
+// Function to handle when an option is clicked
+function handleOptionClick(selectedOption) {
+    const correctAnswer = questions[currentQuestionIndex].correct_answer;
+   
+   
+    // Provide feedback based on selected option
+    if (selectedOption === correctAnswer) {
+        feedbackContainer.textContent = "Correct!";
+        score++;
+    } else {
+        feedbackContainer.textContent = "Incorrect! The correct answer is: " + correctAnswer;
+    }
+   
+   
+   

@@ -17,13 +17,13 @@ To set up the project locally, follow these steps:
 
 
   ```bash
-  git clone https://github.com/LeeMwangi001/quiz-app.git
+  git clone https://github.com/LeeMwangi001/project.git
 
 ```
 2. Navigate to the project directory:
 
   ```bash
-   cd quiz-app
+   cd project
 ```
 
 3. Open the index.html file in your web browser to view the application.

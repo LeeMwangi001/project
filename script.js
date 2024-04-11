@@ -78,6 +78,7 @@ function handleOptionClick(selectedOption) {
     } else { // If all questions have been answered
         feedbackContainer.innerHTML += "<br>Quiz completed!";
         displayFinalScore();
+        location.reload();
     }
    
    

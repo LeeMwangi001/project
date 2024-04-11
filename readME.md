@@ -30,7 +30,7 @@ To set up the project locally, follow these steps:
 
 
 ## Live Site
-You can view the live site [here]().
+You can view the live site [here](https://leemwangi001.github.io/project/).
 
 
 ## Author

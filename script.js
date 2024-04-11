@@ -12,3 +12,20 @@ let questions = [];
 
 
 
+// Fetch questions from the API
+fetch("https://opentdb.com/api.php?amount=10")
+   .then(response => {
+       if (!response.ok) {
+           throw new Error("Failed to fetch questions from the API");
+       }
+       return response.json();
+   })
+   .then(data => {
+       questions = data.results; // Store fetched questions
+       displayQuestion(); // Display the first question
+   })
+   .catch(error => {
+       console.error("Error fetching questions:", error);
+   });  
+
+
